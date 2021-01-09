@@ -1,0 +1,208 @@
+[
+  {
+    "db_key": "age",
+    "title": "Reading age?",
+    "secondary": "Select your reading age",
+    "responses_arr": [
+      "Children",
+      "Teen",
+      "Adult",
+      "Don't mind"
+    ],
+    "responses_alt": {},
+    "multi_response": true,
+    "multi_response_alt": false,
+    "exact_match": false,
+    "single_response": false,
+    "range": false
+  },
+  {
+    "db_key": "fiction",
+    "title": "Fiction or Nonfiction?",
+    "secondary": "Choose a style",
+    "responses_arr": [
+      "Fiction",
+      "Nonfiction",
+      "Don't mind"
+    ],
+    "responses_alt": {},
+    "multi_response": true,
+    "multi_response_alt": false,
+    "exact_match": false,
+    "single_response": false,
+    "range": false
+  },
+  {
+    "db_key": "genres",
+    "title": "Which genres?",
+    "secondary": "Select all genres you want",
+    "responses_arr": [
+      "Fantasy",
+      "Romance",
+      "Historical",
+      "Paranormal",
+      "Mystery",
+      "Science Fiction",
+      "Contemporary",
+      "Thriller",
+      "Adventure",
+      "Humor",
+      "Horror",
+      "Crime",
+      "War",
+      "Dystopia",
+      "Historical",
+      "Biography",
+      "Autobiography"
+    ],
+    "responses_alt": {},
+    "multi_response": true,
+    "multi_response_alt": false,
+    "exact_match": false,
+    "single_response": false,
+    "range": false
+  },
+  {
+    "db_key": "classic",
+    "title": "A classic book?",
+    "secondary": "",
+    "responses_arr": [
+      "Yes",
+      "No",
+      "Don't mind"
+    ],
+    "responses_alt": {
+      "Yes": true,
+      "No": false
+    },
+    "multi_response": false,
+    "exact_match": false,
+    "single_response": true,
+    "single_response_alt": true,
+    "range": false
+  },
+  {
+    "db_key": "pages",
+    "title": "How many pages?",
+    "secondary": "Choose between a shorter, medium sized or longer read",
+    "responses_arr": [
+      "Short, less than 300 pages",
+      "Medium sized, 300-600 pages",
+      "Long, more than 600 pages"
+    ],
+    "responses_alt": {
+      "Short, less than 300 pages": [
+        0,
+        300
+      ],
+      "Medium sized, 300-600 pages": [
+        300,
+        600
+      ],
+      "Long, more than 600 pages": [
+        600,
+        999999
+      ]
+    },
+    "multi_response": false,
+    "exact_match": false,
+    "single_response": false,
+    "range": true,
+    "range_alt": true
+  },
+  {
+    "db_key": "yearPublished",
+    "title": "Year book published?",
+    "secondary": "Choose between an older or a more modern book",
+    "responses_arr": [
+      "Pre 1900s",
+      "1900s",
+      "After 2000"
+    ],
+    "responses_alt": {
+      "Pre 1900s": [
+        0,
+        1900
+      ],
+      "1900s": [
+        1900,
+        2000
+      ],
+      "After 2000": [
+        2000,
+        2022
+      ]
+    },
+    "multi_response": false,
+    "exact_match": false,
+    "single_response": false,
+    "range": true,
+    "range_alt": true
+  },
+  {
+    "db_key": "firstInSeries",
+    "title": "Book in a series?",
+    "secondary": "Do you want a series of books",
+    "responses_arr": [
+      "Yes",
+      "No",
+      "Don't mind"
+    ],
+    "responses_alt": {
+      "Yes": true,
+      "No": null
+    },
+    "multi_response": false,
+    "exact_match": false,
+    "single_response": true,
+    "single_response_alt": true,
+    "range": false
+  },
+  {
+    "db_key": "goodreadsRating",
+    "title": "Goodreads rating?",
+    "secondary": "Choose your range of goodreads ratings",
+    "responses_arr": [
+      "Less than 3/5",
+      "Greater than 3/5",
+      "Don't mind"
+    ],
+    "responses_alt": {
+      "Less than 3/5": [
+        0,
+        3
+      ],
+      "Greater than 3/5": [
+        3,
+        5
+      ]
+    },
+    "multi_response": false,
+    "exact_match": false,
+    "single_response": false,
+    "range": true,
+    "range_alt": true
+  },
+  {
+    "db_key": "language",
+    "title": "Which languages?",
+    "secondary": "Choose your book languages",
+    "responses_arr": [
+      "English",
+      "Arabic",
+      "French",
+      "German",
+      "Spanish",
+      "Portugese",
+      "Italian",
+      "Indonesian",
+      "Turkish"
+    ],
+    "responses_alt": {},
+    "multi_response": true,
+    "multi_response_alt": false,
+    "exact_match": false,
+    "single_response": false,
+    "range": true
+  }
+]

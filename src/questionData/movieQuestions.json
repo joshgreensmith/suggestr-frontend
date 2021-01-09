@@ -1,0 +1,183 @@
+[
+  {
+    "db_key": "rated",
+    "title": "Age rating?",
+    "secondary": "Select multiple responses",
+    "responses_arr": [
+      "PG-13",
+      "R",
+      "Don't mind"
+    ],
+    "responses_alt": {},
+    "multi_response": true,
+    "multi_response_alt": false,
+    "exact_match": false,
+    "single_response": false,
+    "range": false
+  },
+  {
+    "db_key": "genre",
+    "title": "Which genres?",
+    "secondary": "Select multiple genres",
+    "responses_arr": [
+      "Crime",
+      "Action",
+      "Thriller",
+      "War",
+      "Horror",
+      "Western",
+      "Sci-Fi",
+      "Drama",
+      "Adventure",
+      "Biography",
+      "History",
+      "Film-noir",
+      "Mystery",
+      "Family",
+      "Animation",
+      "Music",
+      "Romance",
+      "Comedy"
+    ],
+    "responses_alt": {},
+    "multi_response": true,
+    "multi_response_alt": false,
+    "exact_match": false,
+    "single_response": false,
+    "range": false
+  },
+  {
+    "db_key": "language",
+    "title": "Which languages?",
+    "secondary": "Choose any languages you can understand",
+    "responses_arr": [
+      "English",
+      "French",
+      "Italian",
+      "Spanish",
+      "Portugese",
+      "Turkish",
+      "German",
+      "Arabic",
+      "Chinese"
+    ],
+    "responses_alt": {},
+    "multi_response": true,
+    "multi_response_alt": false,
+    "exact_match": false,
+    "single_response": false,
+    "range": false
+  },
+  {
+    "db_key": "runtime",
+    "title": "How long?",
+    "secondary": "Choose the runtime range of your film",
+    "responses_arr": [
+      "Under 2 hours",
+      "Under 3 hours",
+      "Long, over 3 hours",
+      "Don't mind"
+    ],
+    "responses_alt": {
+      "Under 2 hours": [
+        0,
+        120
+      ],
+      "Under 3 hours": [
+        0,
+        180
+      ],
+      "Long, over 3 hours": [
+        180,
+        999999
+      ]
+    },
+    "multi_response": false,
+    "single_response": false,
+    "range": true,
+    "range_alt": true
+  },
+  {
+    "db_key": "year",
+    "title": "Year film made?",
+    "secondary": "Choose the range of years you want for your film",
+    "responses_arr": [
+      "Oldschool 1900-1950",
+      "50s and 60s 1950-1970",
+      "70s and onwards 19700-2000",
+      "Modern 2000-2020",
+      "Don't mind"
+    ],
+    "responses_alt": {
+      "Oldschool 1900-1950": [1900, 1950],
+      "50s and 60s 1950-1970": [1950, 1970],
+      "70s onwards 1970-2000": [1970, 2000],
+      "Modern 2000-2020": [2000, 2020]
+    },
+    "multi_response": false,
+    "single_response": false,
+    "range": true,
+    "range_alt": true
+  },
+  {
+    "db_key": "imdbRating",
+    "title": "IMDb rating?",
+    "secondary": "Select the range of IMDb ratings you want",
+    "responses_arr": [
+      "Poor, below 5/10",
+      "Good 5/10 to 7/10",
+      "Great, above 7/10",
+      "Don't mind"
+    ],
+    "responses_alt": {
+      "Poor, below 5/10": [0, 5],
+      "Average 5/10 to 7/10": [5, 7],
+      "Great, above 7/10": [7, 10]
+    },
+    "multi_response": false,
+    "single_response": false,
+    "range": true,
+    "range_alt": true
+  },
+  {
+    "db_key": "oscarNominated",
+    "title": "Oscar nominated?",
+    "secondary": "Answer Yes or No",
+    "responses_arr": [
+      "Yes",
+      "No",
+      "Don't mind"
+    ],
+    "responses_alt": {
+      "Yes": true,
+      "No": false
+    },
+    "multi_response": false,
+    "multi_response_alt": false,
+    "exact_match": false,
+    "single_response": true,
+    "single_response_alt": true,
+    "range": false
+  },
+  {
+    "db_key": "services",
+    "title": "Which streaming services?",
+    "secondary": "Choose all streaming services you have access to",
+    "responses_arr": [
+      "Netflix",
+      "Amazon Prime",
+      "Hulu Plus",
+      "Don't mind"
+    ],
+    "responses_alt": {
+      "Netflix": "netflix",
+      "Amazon prime": "amazon_prime",
+      "Hulu Plus": "hulu_plus"
+    },
+    "multi_response": true,
+    "multi_response_alt": true,
+    "exact_match": false,
+    "single_response": false,
+    "range": false
+  }
+]
